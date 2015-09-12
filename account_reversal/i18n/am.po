@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 00:47+0000\n"
-"PO-Revision-Date: 2017-05-30 00:47+0000\n"
+"POT-Creation-Date: 2018-05-17 15:49+0000\n"
+"PO-Revision-Date: 2018-05-17 15:49+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
 "Language-Team: Amharic (https://www.transifex.com/oca/teams/23907/am/)\n"
 "Language: am\n"
@@ -143,6 +143,14 @@ msgstr "Fecha"
 #. module: account_reversal
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3707
 =======
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_5337
@@ -150,6 +158,30 @@ msgstr "Fecha"
 =======
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_5338
 >>>>>>> 9d0643e9... Update translation files
+=======
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3808
+>>>>>>> 1c7add59... OCA Transbot updated translations from Transifex
+=======
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3809
+>>>>>>> 6a58e3c0... OCA Transbot updated translations from Transifex
+=======
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3813
+>>>>>>> ec776c84... OCA Transbot updated translations from Transifex
+=======
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3934
+>>>>>>> 2d575d92... OCA Transbot updated translations from Transifex
+=======
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4080
+>>>>>>> 1e838230... OCA Transbot updated translations from Transifex
+=======
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4082
+>>>>>>> 1b63bd68... OCA Transbot updated translations from Transifex
+=======
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4084
+>>>>>>> 6d93e549... OCA Transbot updated translations from Transifex
+=======
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4085
+>>>>>>> 7ecf95fc... OCA Transbot updated translations from Transifex
 msgid "Reversal Entry"
 msgstr "Asiento inverso"
 
@@ -159,13 +191,12 @@ msgid "Reversal Journal"
 msgstr "Diario"
 
 #. module: account_reversal
-#: model:ir.actions.act_window,name:account_reversal.act_account_move_reverse
 #: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
 msgid "Reverse Entries"
 msgstr "Asientos inversos"
 
 #. module: account_reversal
-#: code:addons/account_reversal/wizard/account_move_reverse.py:59
+#: code:addons/account_reversal/wizard/account_move_reverse.py:58
 #, python-format
 msgid "Reverse moves"
 msgstr ""
@@ -186,7 +217,7 @@ msgid "To Be Reversed"
 msgstr "Para ser invertido"
 
 #. module: account_reversal
-#: code:addons/account_reversal/models/account_move.py:57
+#: code:addons/account_reversal/models/account_move.py:56
 #, python-format
 msgid "Wrong company Journal is '%s' but we have '%s'"
 msgstr ""
