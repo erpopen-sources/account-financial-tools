@@ -1,5 +1,6 @@
 # Translation of OpenERP Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* account_reversal
 #
 msgid ""
@@ -10,6 +11,20 @@ msgstr ""
 "PO-Revision-Date: 2013-10-18 17:39+0000\n"
 "Last-Translator: Guewen Baconnier @ Camptocamp <Unknown>\n"
 "Language-Team: \n"
+=======
+# * account_reversal
+# 
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-30 00:47+0000\n"
+"PO-Revision-Date: 2017-05-30 00:47+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
+>>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,6 +32,7 @@ msgstr ""
 "X-Generator: Launchpad (build 17041)\n"
 
 #. module: account_reversal
+<<<<<<< HEAD
 #: field:account.move.reverse,move_line_prefix:0
 msgid "Items Name Prefix"
 msgstr "Préfixe pour les écritures comptables d'extourne"
@@ -31,6 +47,26 @@ msgstr "Période des extournes"
 #: model:ir.actions.act_window,name:account_reversal.act_account_move_reverse
 msgid "Reverse Entries"
 msgstr "Créer les pièces comptables d'extourne"
+=======
+#: model:ir.model,name:account_reversal.model_account_move
+msgid "Account Entry"
+msgstr "Pièce comptable"
+
+#. module: account_reversal
+#: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: account_reversal
+#: model:ir.model.fields,help:account_reversal.field_account_move_to_be_reversed
+msgid "Check this box if your entry has to be reversed at the end of period."
+msgstr ""
+
+#. module: account_reversal
+#: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
+msgid "Create reversal journal entries"
+msgstr "Créer des pièces comptables d'extourne"
+>>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
 
 #. module: account_reversal
 #: help:account.move.reverse,move_line_prefix:0
@@ -44,6 +80,7 @@ msgstr ""
 "après le préfixe)."
 
 #. module: account_reversal
+<<<<<<< HEAD
 #: help:account.move.reverse,period_id:0
 msgid "If empty, take the period of the date."
 msgstr ""
@@ -108,10 +145,82 @@ msgid ""
 msgstr ""
 "Entrer la date des pièces comptables d'extourne. Par défaut, OpenERP propose "
 "le premier jour de la période comptable suivante."
+=======
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_create_uid
+msgid "Created by"
+msgstr "Créer par"
 
 #. module: account_reversal
-#: help:account.move.reverse,move_prefix:0
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_create_date
+msgid "Created on"
+msgstr "Créer le"
+
+#. module: account_reversal
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: account_reversal
+#: model:ir.model.fields,help:account_reversal.field_account_move_reverse_date
 msgid ""
+"Enter the date of the reversal account entries. By default, Odoo proposes "
+"the same date of the move to reverse."
+msgstr ""
+
+#. module: account_reversal
+#: model:ir.model.fields,help:account_reversal.field_account_move_reverse_journal_id
+msgid ""
+"Enter the date of the reversal account entries. If empty, Odoo uses the same"
+" journal of the move to reverse."
+msgstr ""
+
+#. module: account_reversal
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_move_prefix
+msgid "Entries Ref. Prefix"
+msgstr "Préfixe pour les références des pièces comptables d'extourne"
+
+#. module: account_reversal
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_reversal
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_line_prefix
+msgid "Items Name Prefix"
+msgstr "Préfixe pour les écritures comptables d'extourne"
+
+#. module: account_reversal
+#: model:ir.actions.act_window,name:account_reversal.action_move_to_be_reversed
+#: model:ir.ui.menu,name:account_reversal.menu_move_to_be_reversed
+#: model:ir.ui.view,arch_db:account_reversal.view_account_move_filter
+msgid "Journal Entries to be Reversed"
+msgstr "Pièces comptables à extourner"
+
+#. module: account_reversal
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse___last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: account_reversal
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_write_uid
+msgid "Last Updated by"
+msgstr "Mis à jour par"
+
+#. module: account_reversal
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_write_date
+msgid "Last Updated on"
+msgstr "Mis à jour le"
+>>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
+
+#. module: account_reversal
+#: model:ir.model.fields,help:account_reversal.field_account_move_reverse_reconcile
+msgid "Mark this if you want to reconcile items of both moves."
+msgstr ""
+
+#. module: account_reversal
+#: model:ir.model.fields,help:account_reversal.field_account_move_reverse_line_prefix
+msgid ""
+<<<<<<< HEAD
 "Prefix that will be added to the 'Ref' of the journal entry to be reversed "
 "to create the 'Ref' of the reversal journal entry (no space added after the "
 "prefix)."
@@ -131,13 +240,28 @@ msgstr "Pièce comptable"
 #: model:ir.ui.menu,name:account_reversal.menu_move_to_be_reversed
 msgid "Journal Entries to be Reversed"
 msgstr "Pièces comptables à extourner"
+=======
+"Prefix that will be added to the 'Name' of the reversal account entrie "
+"items. If empty, Odoo uses the same name of the move line to reverse. (NOTE:"
+" A space is added after the prefix)."
+msgstr ""
 
 #. module: account_reversal
-#: field:account.move.reverse,date:0
-msgid "Reversal Date"
-msgstr "Date des extournes"
+#: model:ir.model.fields,help:account_reversal.field_account_move_reverse_move_prefix
+msgid ""
+"Prefix that will be added to the 'Ref' of the reversal account entries. If "
+"empty, Odoo uses the Ref of the move to reverse. (NOTE: A space is added "
+"after the prefix)."
+msgstr ""
+>>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
 
 #. module: account_reversal
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_reconcile
+msgid "Reconcile"
+msgstr "Lettrer"
+
+#. module: account_reversal
+<<<<<<< HEAD
 #: field:account.move.reverse,move_prefix:0
 msgid "Entries Ref. Prefix"
 msgstr "Préfixe pour les références des pièces comptables d'extourne"
@@ -150,8 +274,44 @@ msgstr "Annuler"
 #. module: account_reversal
 #: view:account.move.reverse:0
 msgid "or"
+=======
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_date
+msgid "Reversal Date"
+msgstr "Date des extournes"
+
+#. module: account_reversal
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3707
+msgid "Reversal Entry"
+msgstr "Pièce comptable d'extourne"
+
+#. module: account_reversal
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_journal_id
+msgid "Reversal Journal"
+msgstr "Journal des extournes"
+
+#. module: account_reversal
+#: model:ir.actions.act_window,name:account_reversal.act_account_move_reverse
+#: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
+msgid "Reverse Entries"
+msgstr "Créer les pièces comptables d'extourne"
+
+#. module: account_reversal
+#: code:addons/account_reversal/wizard/account_move_reverse.py:59
+#, python-format
+msgid "Reverse moves"
 msgstr ""
 
+#. module: account_reversal
+#: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
+msgid ""
+"This will create reversal for all selected entries whether checked 'to be "
+"reversed' or not."
+>>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
+msgstr ""
+"Celà créera les contrepartie pour les écritures sélectionnées même si coché "
+"'Doit être contrepassé' ou pas."
+
+<<<<<<< HEAD
 #~ msgid ""
 #~ "You can not create more than one move per period on centralized journal"
 #~ msgstr ""
@@ -169,3 +329,21 @@ msgstr ""
 #~ msgstr ""
 #~ "Cochez cette case si votre pièce comptable doit être extournée à la fin de "
 #~ "la période."
+=======
+#. module: account_reversal
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_to_be_reversed
+#: model:ir.ui.view,arch_db:account_reversal.view_account_move_filter
+msgid "To Be Reversed"
+msgstr "Extourne nécessaire"
+
+#. module: account_reversal
+#: code:addons/account_reversal/models/account_move.py:57
+#, python-format
+msgid "Wrong company Journal is '%s' but we have '%s'"
+msgstr ""
+
+#. module: account_reversal
+#: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
+msgid "or"
+msgstr "ou"
+>>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
