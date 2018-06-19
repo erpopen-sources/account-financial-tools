@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 =======
 # * account_reversal
-# 
+#
 # Translators:
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
@@ -24,12 +24,20 @@ msgstr ""
 "PO-Revision-Date: 2017-05-30 00:47+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
 "Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
+<<<<<<< HEAD
 >>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "X-Generator: Poedit 1.5.4\n"
+=======
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+>>>>>>> 6c775cef... [UPD] Update account_reversal.pot
 
 #. module: account_reversal
 #: field:account.move.reverse,move_line_prefix:0
@@ -130,9 +138,14 @@ msgstr ""
 #. module: account_reversal
 #: model:ir.model.fields,help:account_reversal.field_account_move_reverse_journal_id
 msgid ""
+<<<<<<< HEAD
 "Enter the date of the reversal account entries. If empty, Odoo uses the same"
 " journal of the move to reverse."
 >>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
+=======
+"Enter the date of the reversal account entries. If empty, Odoo uses the same "
+"journal of the move to reverse."
+>>>>>>> 6c775cef... [UPD] Update account_reversal.pot
 msgstr ""
 "Dies wird für alle ausgewählten Buchungen eine Umkehr anlegen, ob "
 "'Umzukehren' ausgewählt oder nicht."
@@ -204,10 +217,14 @@ msgstr "Zuletzt geändert am"
 #. module: account_reversal
 #: model:ir.model.fields,help:account_reversal.field_account_move_reverse_reconcile
 msgid "Mark this if you want to reconcile items of both moves."
+<<<<<<< HEAD
 >>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
 msgstr ""
 "Geben Sie das Datum der Konto-Umkehrbuchung an. Per Vorgabe wählt OpenERP "
 "den ersten Tag der nächsten Periode."
+=======
+msgstr "Dies setzen, wenn Sie die Posten beider Buchungen ausgleichen möchten."
+>>>>>>> 6c775cef... [UPD] Update account_reversal.pot
 
 #. module: account_reversal
 #: model:ir.model.fields,help:account_reversal.field_account_move_reverse_line_prefix
@@ -234,8 +251,8 @@ msgid "Journal Entries to be Reversed"
 msgstr "Umzukehrende Journalbuchungen"
 =======
 "Prefix that will be added to the 'Name' of the reversal account entrie "
-"items. If empty, Odoo uses the same name of the move line to reverse. (NOTE:"
-" A space is added after the prefix)."
+"items. If empty, Odoo uses the same name of the move line to reverse. (NOTE: "
+"A space is added after the prefix)."
 msgstr ""
 
 #. module: account_reversal
@@ -245,7 +262,13 @@ msgid ""
 "empty, Odoo uses the Ref of the move to reverse. (NOTE: A space is added "
 "after the prefix)."
 msgstr ""
+<<<<<<< HEAD
 >>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
+=======
+"Präfix, der der Referenz den Umkehrbuchungen vorangestellt wird. Wenn leer, "
+"wird Odoo die Bezeichnung aus der Ursprungsbuchung übernehmen. (HINWEIS: dem "
+"Präfix wird ein Leerzeichen angehängt)."
+>>>>>>> 6c775cef... [UPD] Update account_reversal.pot
 
 #. module: account_reversal
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_reconcile
