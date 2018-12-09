@@ -137,7 +137,9 @@ msgstr ""
 
 #. module: account_reversal
 #: model:ir.model.fields,help:account_reversal.field_account_move_reverse_journal_id
+#, fuzzy
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Enter the date of the reversal account entries. If empty, Odoo uses the same"
 " journal of the move to reverse."
@@ -146,6 +148,10 @@ msgid ""
 "Enter the date of the reversal account entries. If empty, Odoo uses the same "
 "journal of the move to reverse."
 >>>>>>> 6c775cef... [UPD] Update account_reversal.pot
+=======
+"Enter the journal of the reversal account entries. If empty, Odoo uses the "
+"same journal of the move to reverse."
+>>>>>>> ba99192c... Update translation files
 msgstr ""
 "Dies wird für alle ausgewählten Buchungen eine Umkehr anlegen, ob "
 "'Umzukehren' ausgewählt oder nicht."
@@ -294,7 +300,11 @@ msgid "Reversal Date"
 msgstr "Umkehrdatum"
 
 #. module: account_reversal
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3707
+=======
+#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_5337
+>>>>>>> ba99192c... Update translation files
 msgid "Reversal Entry"
 msgstr "Umkehrbuchung"
 
