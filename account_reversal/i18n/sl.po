@@ -1,7 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_reversal
-<<<<<<< HEAD
 #
 # Translators:
 # OCA Transbot <transbot@odoo-community.org>, 2017
@@ -19,24 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3);\n"
-=======
-# 
-# Translators:
-# Matjaž Mozetič <m.mozetic@matmoz.si>, 2015
-msgid ""
-msgstr ""
-"Project-Id-Version: account-financial-tools (8.0)\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-03 22:27+0000\n"
-"PO-Revision-Date: 2015-09-30 11:27+0000\n"
-"Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
-"Language-Team: Slovenian (http://www.transifex.com/oca/OCA-account-financial-tools-8-0/language/sl/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Language: sl\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 
 #. module: account_reversal
 #: model:ir.model,name:account_reversal.model_account_move
@@ -44,30 +25,17 @@ msgid "Account Entry"
 msgstr "Knjigovodski vnos"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
-=======
-#: view:account.move.reverse:account_reversal.view_account_move_reverse
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Cancel"
 msgstr "Preklic"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,help:account_reversal.field_account_move_to_be_reversed
 msgid "Check this box if your entry has to be reversed at the end of period."
 msgstr ""
 
 #. module: account_reversal
 #: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
-=======
-#: help:account.move,to_be_reversed:0
-msgid "Check this box if your entry has to bereversed at the end of period."
-msgstr "Označite, če se vnos ob koncu obdobja preobrne."
-
-#. module: account_reversal
-#: view:account.move.reverse:account_reversal.view_account_move_reverse
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Create reversal journal entries"
 msgstr "Ustvari preobrnjene dnevniške vnose"
 
@@ -77,25 +45,16 @@ msgid "Create reversal of account moves"
 msgstr "Ustvari preobrnjene kontne premike"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_create_uid
-=======
-#: field:account.move.reverse,create_uid:0
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Created by"
 msgstr "Ustvaril"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_create_date
-=======
-#: field:account.move.reverse,create_date:0
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Created on"
 msgstr "Ustvarjeno"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_display_name
 msgid "Display Name"
 msgstr "Prikazni naziv"
@@ -116,85 +75,42 @@ msgstr ""
 
 #. module: account_reversal
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_move_prefix
-=======
-#: help:account.move.reverse,date:0
-msgid ""
-"Enter the date of the reversal account entries. By default, OpenERP proposes"
-" the first day of the next period."
-msgstr "Vnos datuma za preobrnjene kontne vnose. Privzeto OpenERP predlaga prvi dan naslednjega obdobja."
-
-#. module: account_reversal
-#: field:account.move.reverse,move_prefix:0
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Entries Ref. Prefix"
 msgstr "Predpona sklica vnosov"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_id
-=======
-#: field:account.move.reverse,id:0
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "ID"
 msgstr "ID"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_line_prefix
-=======
-#: help:account.move.reverse,period_id:0
-msgid "If empty, take the period of the date."
-msgstr "Če je prazno, upošteva obdobje datuma."
-
-#. module: account_reversal
-#: help:account.move.reverse,journal_id:0
-msgid "If empty, uses the journal of the journal entry to be reversed."
-msgstr "Če je prazno, upošteva dnevnik dnevniškega vnosa, ki bo preobrnjen."
-
-#. module: account_reversal
-#: field:account.move.reverse,move_line_prefix:0
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Items Name Prefix"
 msgstr "Predpona naziva postavk"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.actions.act_window,name:account_reversal.action_move_to_be_reversed
 #: model:ir.ui.menu,name:account_reversal.menu_move_to_be_reversed
 #: model:ir.ui.view,arch_db:account_reversal.view_account_move_filter
-=======
-#: view:account.move:account_reversal.view_account_move_reversal_filter
-#: model:ir.actions.act_window,name:account_reversal.action_move_to_be_reversed
-#: model:ir.ui.menu,name:account_reversal.menu_move_to_be_reversed
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Journal Entries to be Reversed"
 msgstr "Dnevniški vnosi, ki bodo preobrnjeni"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse___last_update
 msgid "Last Modified on"
 msgstr "Zadnjič spremenjeno"
 
 #. module: account_reversal
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_write_uid
-=======
-#: field:account.move.reverse,write_uid:0
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Last Updated by"
 msgstr "Zadnjič posodobil"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_write_date
-=======
-#: field:account.move.reverse,write_date:0
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Last Updated on"
 msgstr "Zadnjič posodobljeno"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,help:account_reversal.field_account_move_reverse_reconcile
 msgid "Mark this if you want to reconcile items of both moves."
 msgstr ""
@@ -222,118 +138,26 @@ msgstr "Uskladi"
 
 #. module: account_reversal
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_date
-=======
-#: help:account.move.reverse,move_prefix:0
-msgid ""
-"Prefix that will be added to the 'Ref' of the journal entry to be reversed "
-"to create the 'Ref' of the reversal journal entry (no space added after the "
-"prefix)."
-msgstr "Predpona, ki bo dodana sklicu dnevniškega vnosa, ki bo preobrnjen, za ustvarjanje sklica preobrnjenih dnevniških vnosov (brez prostora po predponi)."
-
-#. module: account_reversal
-#: help:account.move.reverse,move_line_prefix:0
-msgid ""
-"Prefix that will be added to the name of the journal item to be reversed to "
-"create the name of the reversal journal item (a space is added after the "
-"prefix)."
-msgstr "Predpona, ki bo dodana sklicu dnevniške postavke, ki bo preobrnjena, za ustvarjanje sklica preobrnjenih dnevniških postavk (s prostorom po predponi)."
-
-#. module: account_reversal
-#: field:account.move.reverse,date:0
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Reversal Date"
 msgstr "Datum preobrnitve"
 
 #. module: account_reversal
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3707
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_5337
->>>>>>> ba99192c... Update translation files
-=======
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_5338
->>>>>>> 9d0643e9... Update translation files
-=======
-#: code:addons/account_reversal/wizard/account_move_reverse.py:114
-#, python-format
-msgid "Reversal Entries"
-msgstr "Preobrnjeni vnosi"
-
-#. module: account_reversal
-#: field:account.move,reversal_id:0
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3808
->>>>>>> 1c7add59... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3809
->>>>>>> 6a58e3c0... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3813
->>>>>>> ec776c84... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3934
->>>>>>> 2d575d92... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4080
->>>>>>> 1e838230... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4082
->>>>>>> 1b63bd68... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4084
->>>>>>> 6d93e549... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4085
->>>>>>> 7ecf95fc... OCA Transbot updated translations from Transifex
 msgid "Reversal Entry"
 msgstr "Preobrnjeni vnos"
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_journal_id
-=======
-#: field:account.move.reverse,journal_id:0
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Reversal Journal"
 msgstr "Preobrnjeni dnevnik"
 
 #. module: account_reversal
-<<<<<<< HEAD
-<<<<<<< HEAD
-#: model:ir.actions.act_window,name:account_reversal.act_account_move_reverse
-=======
->>>>>>> 1c7add59... OCA Transbot updated translations from Transifex
 #: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
-=======
-#: field:account.move.reverse,period_id:0
-msgid "Reversal Period"
-msgstr "Preobrnjeno obdobje"
-
-#. module: account_reversal
-#: view:account.move.reverse:account_reversal.view_account_move_reverse
-#: model:ir.actions.act_window,name:account_reversal.act_account_move_reverse
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "Reverse Entries"
 msgstr "Preobrnjeni vnosi"
 
 #. module: account_reversal
-<<<<<<< HEAD
-<<<<<<< HEAD
-#: code:addons/account_reversal/wizard/account_move_reverse.py:59
-=======
 #: code:addons/account_reversal/wizard/account_move_reverse.py:58
->>>>>>> 1c7add59... OCA Transbot updated translations from Transifex
 #, python-format
 msgid "Reverse moves"
 msgstr ""
@@ -350,47 +174,16 @@ msgstr ""
 #. module: account_reversal
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_to_be_reversed
 #: model:ir.ui.view,arch_db:account_reversal.view_account_move_filter
-=======
-#: view:account.move.reverse:account_reversal.view_account_move_reverse
-msgid ""
-"This will create reversal for all selected entries whether checked 'to be "
-"reversed' or not."
-msgstr "Preobrne vse izbrane vnose, ne glede, če imajo označbo 'za preobrnitev' ali ne."
-
-#. module: account_reversal
-#: view:account.move:account_reversal.view_account_move_reversal_filter
-#: field:account.move,to_be_reversed:0
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "To Be Reversed"
 msgstr "Za preobrnitev"
 
 #. module: account_reversal
-<<<<<<< HEAD
-<<<<<<< HEAD
-#: code:addons/account_reversal/models/account_move.py:57
-=======
 #: code:addons/account_reversal/models/account_move.py:56
->>>>>>> 1c7add59... OCA Transbot updated translations from Transifex
 #, python-format
 msgid "Wrong company Journal is '%s' but we have '%s'"
 msgstr ""
 
 #. module: account_reversal
 #: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
-=======
-#: code:addons/account_reversal/account_reversal.py:82
-#, python-format
-msgid "Wrong company Journal is %s but we have %s"
-msgstr "Napačen dnevnik družbe je %s,  a mi imamo %s"
-
-#. module: account_reversal
-#: code:addons/account_reversal/account_reversal.py:85
-#, python-format
-msgid "Wrong company Period is %s but we have %s"
-msgstr "Napačno obdobje družbe je %s, a mi imamo %s"
-
-#. module: account_reversal
-#: view:account.move.reverse:account_reversal.view_account_move_reverse
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgid "or"
 msgstr "ali"

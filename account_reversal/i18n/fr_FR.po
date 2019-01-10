@@ -9,25 +9,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2016-11-23 03:37+0000\n"
-"PO-Revision-Date: 2016-11-23 03:37+0000\n"
-"Last-Translator: Mohamed HABOU <m.habou@agoradeveloppement.com>, 2016\n"
-=======
-"POT-Creation-Date: 2017-12-23 03:40+0000\n"
-"PO-Revision-Date: 2017-12-23 03:40+0000\n"
-"Last-Translator: Quentin THEURET <odoo@kerpeo.com>, 2017\n"
->>>>>>> 6169ae69... OCA Transbot updated translations from Transifex
-"Language-Team: French (France) (https://www.transifex.com/oca/teams/23907/fr_FR/)\n"
-=======
 "POT-Creation-Date: 2017-12-23 03:40+0000\n"
 "PO-Revision-Date: 2017-12-23 03:40+0000\n"
 "Last-Translator: Quentin THEURET <odoo@kerpeo.com>, 2017\n"
 "Language-Team: French (France) (https://www.transifex.com/oca/teams/23907/"
 "fr_FR/)\n"
 "Language: fr_FR\n"
->>>>>>> 6c775cef... [UPD] Update account_reversal.pot
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -157,23 +144,7 @@ msgid "Reversal Date"
 msgstr ""
 
 #. module: account_reversal
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3580
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4085
->>>>>>> 6c775cef... [UPD] Update account_reversal.pot
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_5337
->>>>>>> ba99192c... Update translation files
-=======
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_5338
->>>>>>> 9d0643e9... Update translation files
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3808
->>>>>>> 6169ae69... OCA Transbot updated translations from Transifex
 msgid "Reversal Entry"
 msgstr ""
 

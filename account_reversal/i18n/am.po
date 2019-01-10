@@ -141,47 +141,7 @@ msgid "Reversal Date"
 msgstr "Fecha"
 
 #. module: account_reversal
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3707
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_5337
->>>>>>> ba99192c... Update translation files
-=======
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_5338
->>>>>>> 9d0643e9... Update translation files
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3808
->>>>>>> 1c7add59... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3809
->>>>>>> 6a58e3c0... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3813
->>>>>>> ec776c84... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_3934
->>>>>>> 2d575d92... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4080
->>>>>>> 1e838230... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4082
->>>>>>> 1b63bd68... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4084
->>>>>>> 6d93e549... OCA Transbot updated translations from Transifex
-=======
-#: model:ir.model.fields,field_description:account_reversal.field_account_move_reversal_id_4085
->>>>>>> 7ecf95fc... OCA Transbot updated translations from Transifex
 msgid "Reversal Entry"
 msgstr "Asiento inverso"
 

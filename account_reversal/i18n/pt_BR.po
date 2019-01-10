@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Brazilian Portuguese translation for account-financial-tools
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
-# This file is distributed under the same license as the account-financial-tools package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: account-financial-tools\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2013-10-18 17:51+0000\n"
-"PO-Revision-Date: 2014-01-10 11:29+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
-=======
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_reversal
@@ -27,38 +11,6 @@ msgstr ""
 "POT-Creation-Date: 2017-05-11 00:39+0000\n"
 "PO-Revision-Date: 2017-05-11 00:39+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-<<<<<<< HEAD
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/oca/teams/23907/pt_BR/)\n"
->>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
-=======
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * account_reversal
-# 
-# Translators:
-# danimaribeiro <danimaribeiro@gmail.com>, 2015
-msgid ""
-msgstr ""
-"Project-Id-Version: account-financial-tools (8.0)\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-01 13:25+0000\n"
-"PO-Revision-Date: 2015-06-19 04:26+0000\n"
-"Last-Translator: danimaribeiro <danimaribeiro@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/oca/OCA-account-financial-tools-8-0/language/pt_BR/)\n"
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#. module: account_reversal
-<<<<<<< HEAD
-<<<<<<< HEAD
-#: field:account.move.reverse,move_line_prefix:0
-msgid "Items Name Prefix"
-msgstr ""
-=======
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/oca/"
 "teams/23907/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -66,29 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
->>>>>>> 6c775cef... [UPD] Update account_reversal.pot
-=======
-#: model:ir.model,name:account_reversal.model_account_move
-msgid "Account Entry"
-msgstr "Entrada de conta"
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 
 #. module: account_reversal
-#: view:account.move.reverse:account_reversal.view_account_move_reverse
-msgid "Cancel"
-msgstr "Cancelar"
-
-#. module: account_reversal
-#: help:account.move,to_be_reversed:0
-msgid "Check this box if your entry has to bereversed at the end of period."
-msgstr ""
-
-#. module: account_reversal
-<<<<<<< HEAD
-#: view:account.move.reverse:0
-#: model:ir.actions.act_window,name:account_reversal.act_account_move_reverse
-msgid "Reverse Entries"
-=======
 #: model:ir.model,name:account_reversal.model_account_move
 msgid "Account Entry"
 msgstr "Entrada de conta"
@@ -106,11 +37,6 @@ msgstr ""
 #. module: account_reversal
 #: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
 msgid "Create reversal journal entries"
->>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
-=======
-#: view:account.move.reverse:account_reversal.view_account_move_reverse
-msgid "Create reversal journal entries"
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgstr ""
 
 #. module: account_reversal
@@ -119,72 +45,6 @@ msgid "Create reversal of account moves"
 msgstr ""
 
 #. module: account_reversal
-<<<<<<< HEAD
-<<<<<<< HEAD
-#: help:account.move.reverse,period_id:0
-msgid "If empty, take the period of the date."
-=======
-#: field:account.move.reverse,create_uid:0
-msgid "Created by"
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
-msgstr ""
-
-#. module: account_reversal
-#: field:account.move.reverse,create_date:0
-msgid "Created on"
-msgstr ""
-
-#. module: account_reversal
-#: help:account.move.reverse,date:0
-msgid ""
-"Enter the date of the reversal account entries. By default, OpenERP proposes"
-" the first day of the next period."
-msgstr ""
-
-#. module: account_reversal
-#: field:account.move.reverse,move_prefix:0
-msgid "Entries Ref. Prefix"
-msgstr ""
-
-#. module: account_reversal
-#: field:account.move.reverse,id:0
-msgid "ID"
-msgstr ""
-
-#. module: account_reversal
-#: help:account.move.reverse,period_id:0
-msgid "If empty, take the period of the date."
-msgstr ""
-
-#. module: account_reversal
-#: help:account.move.reverse,journal_id:0
-msgid "If empty, uses the journal of the journal entry to be reversed."
-msgstr ""
-
-#. module: account_reversal
-#: field:account.move.reverse,move_line_prefix:0
-msgid "Items Name Prefix"
-msgstr ""
-
-#. module: account_reversal
-#: view:account.move:account_reversal.view_account_move_reversal_filter
-#: model:ir.actions.act_window,name:account_reversal.action_move_to_be_reversed
-#: model:ir.ui.menu,name:account_reversal.menu_move_to_be_reversed
-msgid "Journal Entries to be Reversed"
-msgstr ""
-
-#. module: account_reversal
-#: field:account.move.reverse,write_uid:0
-msgid "Last Updated by"
-msgstr ""
-
-#. module: account_reversal
-<<<<<<< HEAD
-#: help:account.move.reverse,date:0
-msgid ""
-"Enter the date of the reversal account entries. By default, OpenERP proposes "
-"the first day of the next period."
-=======
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_create_uid
 msgid "Created by"
 msgstr "Criado por"
@@ -204,10 +64,6 @@ msgstr "Nome para Mostrar"
 msgid ""
 "Enter the date of the reversal account entries. By default, Odoo proposes "
 "the same date of the move to reverse."
-=======
-#: field:account.move.reverse,write_date:0
-msgid "Last Updated on"
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
 msgstr ""
 
 #. module: account_reversal
@@ -218,7 +74,6 @@ msgid ""
 msgstr ""
 
 #. module: account_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_reversal.field_account_move_reverse_move_prefix
 msgid "Entries Ref. Prefix"
 msgstr ""
@@ -258,7 +113,6 @@ msgstr "Última atualização em"
 #. module: account_reversal
 #: model:ir.model.fields,help:account_reversal.field_account_move_reverse_reconcile
 msgid "Mark this if you want to reconcile items of both moves."
->>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
 msgstr ""
 
 #. module: account_reversal
@@ -270,43 +124,6 @@ msgid ""
 msgstr ""
 
 #. module: account_reversal
-<<<<<<< HEAD
-#: model:ir.model,name:account_reversal.model_account_move
-msgid "Account Entry"
-=======
-#: help:account.move.reverse,move_line_prefix:0
-msgid ""
-"Prefix that will be added to the name of the journal item to be reversed to "
-"create the name of the reversal journal item (a space is added after the "
-"prefix)."
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
-msgstr ""
-
-#. module: account_reversal
-#: field:account.move.reverse,date:0
-msgid "Reversal Date"
-msgstr ""
-
-#. module: account_reversal
-#: code:addons/account_reversal/wizard/account_move_reverse.py:114
-#, python-format
-msgid "Reversal Entries"
-msgstr ""
-
-#. module: account_reversal
-#: field:account.move,reversal_id:0
-msgid "Reversal Entry"
-msgstr ""
-
-#. module: account_reversal
-#: field:account.move.reverse,journal_id:0
-msgid "Reversal Journal"
-msgstr ""
-
-#. module: account_reversal
-<<<<<<< HEAD
-#: view:account.move.reverse:0
-=======
 #: model:ir.model.fields,help:account_reversal.field_account_move_reverse_move_prefix
 msgid ""
 "Prefix that will be added to the 'Ref' of the reversal account entries. If "
@@ -366,34 +183,5 @@ msgstr ""
 
 #. module: account_reversal
 #: model:ir.ui.view,arch_db:account_reversal.view_account_move_reverse
->>>>>>> 61f809e8... [10.0][MIG] account_reversal migration (#445)
-msgid "or"
-=======
-#: field:account.move.reverse,period_id:0
-msgid "Reversal Period"
->>>>>>> 2f65ca11... OCA Transbot updated translations from Transifex
-msgstr ""
-
-#. module: account_reversal
-#: view:account.move.reverse:account_reversal.view_account_move_reverse
-#: model:ir.actions.act_window,name:account_reversal.act_account_move_reverse
-msgid "Reverse Entries"
-msgstr ""
-
-#. module: account_reversal
-#: view:account.move.reverse:account_reversal.view_account_move_reverse
-msgid ""
-"This will create reversal for all selected entries whether checked 'to be "
-"reversed' or not."
-msgstr ""
-
-#. module: account_reversal
-#: view:account.move:account_reversal.view_account_move_reversal_filter
-#: field:account.move,to_be_reversed:0
-msgid "To Be Reversed"
-msgstr ""
-
-#. module: account_reversal
-#: view:account.move.reverse:account_reversal.view_account_move_reverse
 msgid "or"
 msgstr "ou"
