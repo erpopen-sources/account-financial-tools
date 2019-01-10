@@ -2,6 +2,7 @@
 # Copyright 2011 Nicolas Bessi (Camptocamp)
 # Copyright 2012-2013 Guewen Baconnier (Camptocamp)
 # Copyright 2016 Antonio Espinosa <antonio.espinosa@tecnativa.com>
+# Copyright 2019 Jordy Blankestijn <jblankestijn@erpopen.nl>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 from odoo import api, fields, models
@@ -11,6 +12,7 @@ from odoo.tools.translate import _
 
 class AccountMove(models.Model):
     _inherit = "account.move"
+    _description = "account move"
 
     to_be_reversed = fields.Boolean(
         string="To Be Reversed",
